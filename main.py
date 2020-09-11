@@ -1,23 +1,28 @@
 # Author: Kyle Hamlet kjh6064@psu.edu
 # Section: 5
-def getLetterGrade ():
-  gradevalue = int(input("Enter your CMPSC 131 grade: "))
+def getLetterGrade (gradevalue): 
   if gradevalue >= 93.0:
-    gradevalue = "A"
+    return "A"
   elif gradevalue >= 90.0:
-    gradevalue = "A-"
+    return "A-"
   elif gradevalue >= 87.0:
-    gradevalue = "B+"
+    return "B+"
   elif gradevalue >= 83.0:
-    gradevalue = "B"
+    return "B"
   elif gradevalue >= 80.0:
-    gradevalue = "B-"
+    return "B-"
   elif gradevalue >= 77.0:
-    gradevalue = "C+"
+    return "C+"
   elif gradevalue >= 70.0:
-    gradevalue = "C"
+    return "C"
   elif gradevalue >= 60.0:
-    gradevalue = "D"
+    return "D"
   else:
-    gradevalue = "F"
-  print(f"Your letter grade for CMPSC 131 is {gradevalue}.\n")
+    return "F"
+  
+def run():
+  gradevalue = int(input("Enter your CMPSC 131 grade: "))
+  print(f"Your letter grade for CMPSC 131 is {getLetterGrade(gradevalue)}.")
+
+if __name__ == "__main__":
+  run()
