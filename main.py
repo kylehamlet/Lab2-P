@@ -1,4 +1,5 @@
 # Author: Kyle Hamlet kjh6064@psu.edu
+# Solo
 # Section: 5
 def getLetterGrade (gradevalue): 
   if gradevalue >= 93.0:
