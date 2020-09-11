@@ -22,7 +22,7 @@ def getLetterGrade (gradevalue):
   
 def run():
   gradevalue = int(input("Enter your CMPSC 131 grade: "))
-  print(f"Your letter grade for CMPSC 131 is {getLetterGrade(gradevalue)}.")
+  print(f"Your letter grade for CMPSC 131 is {getLetterGrade(gradevalue)}.\n")
 
 if __name__ == "__main__":
   run()
