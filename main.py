@@ -20,4 +20,4 @@ def getLetterGrade ():
     gradevalue = "D"
   else:
     gradevalue = "F"
-  print(f"Your letter grade for CMPSC 131 is {gradevalue}.")
+  print(f"Your letter grade for CMPSC 131 is {gradevalue}.\n")
